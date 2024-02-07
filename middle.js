@@ -8,7 +8,7 @@ const eqArrays = function (array1, array2) {
   // for to to go through array
   for (let i = 0; i < array1.length; i++) {
     // checks the content of the array and see if they are equal
-    if (!Array.isArray(array1[i]) && array1[i] !== array2[i]) {
+    if (array1[i] !== array2[i]) {
       return false;
     }
   }
@@ -19,7 +19,7 @@ const eqArrays = function (array1, array2) {
 
 //FUNCTION IMPLEMENTATION
 // uses eqArray function and calls its and displays whether array != or =
-const assertArayEqual = function (array1, array2) {
+const assertArrayEqual = function (array1, array2) {
   const result = eqArrays(array1, array2);
 
   if (result === false) {
@@ -55,9 +55,9 @@ const middle = function (array) {
 
 //TEST CODE
 
-//console.log(middle([1])); // => []
-//console.log(middle([1, 2])); // => []
-//console.log(middle([1, 2, 3])); // => [2]
-//console.log(middle([1, 2, 3, 4, 5])); // => [3]
-//console.log(middle([1, 2, 3, 4])); // => [2, 3]
-//console.log(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
+//assertArraysEqual(middle([1])); // => []
+//assertArraysEqual(middle([1, 2])); // => []
+//assertArraysEqual(middle([1, 2, 3])); // => [2]
+//assertArraysEqual(middle([1, 2, 3, 4, 5])); // => [3]
+//assertArraysEqual(middle([1, 2, 3, 4])); // => [2, 3]
+//assertArraysEqual(middle([1, 2, 3, 4, 5, 6])); // => [3, 4]
