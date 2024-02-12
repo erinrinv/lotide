@@ -1,7 +1,7 @@
 
 //assertArrayEqual function
 // uses eqArray function and calls its and displays whether array != or =
-const assertArayEqual = function(array1,array2){
+const assertAraysEqual = function(array1,array2){
   const result = eqArrays(array1,array2);
 
   if(result == false){
