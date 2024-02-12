@@ -4,7 +4,7 @@ const eqArrays = require('./eqArrays');
 
 //assertArrayEqual function
 // uses eqArray function and calls its and displays whether array != or =
-const assertAraysEqual = function(array1,array2){
+const assertArraysEqual = function(array1,array2){
   const result = eqArrays(array1,array2);
 
   if(result == false){
