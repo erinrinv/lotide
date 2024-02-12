@@ -1,15 +1,15 @@
 {
-  "name": "lotide",
+  "name": "@erinrinv/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "mini clone of the [Lodash]",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Erin ",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.1",
